@@ -1,0 +1,37 @@
+(deftemplate MAIN::button 
+   (slot name))
+(deftemplate MAIN::hint 
+   (slot now))
+(deftemplate MAIN::label 
+   (slot name) 
+   (slot value))
+(deftemplate MAIN::problem 
+   (slot name)
+    (slot OriginSubtractor)
+    (slot OriginSubtrend)
+   (multislot subgoals) 
+   (slot done) 
+   (slot description))
+(deftemplate MAIN::textField 
+   (slot name) 
+   (slot value))
+(deftemplate MAIN::none-borrow
+    (multislot subtractor)
+    (multislot subtrend))
+(deftemplate MAIN::borrow
+    (slot borrowValues)
+    (slot onesAfterBorrow))
+(deftemplate subtractor
+    (slot name) 
+    (slot tensDigit)
+    (slot onesDigit))
+(deftemplate subtrend
+    (slot name) 
+    (slot tensDigit)
+    (slot onesDigit))
+(deftemplate studentValues
+    (slot selection)
+    (slot action)
+    (slot input))
+; tell productionRules file that templates have been parsed
+(provide wmeTypes)

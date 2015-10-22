@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.core.model.util.RenameConvertSupport$RenameDialog">
+	</section>
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.ImportArchiveDialog">
+		<item value="527" key="x"/>
+		<item value="525" key="width"/>
+		<item value="429" key="y"/>
+		<item value="418" key="height"/>
+		<list key="HISTORY_JAR_LIST">
+			<item value="/Applications/Cognitive Tutor Authoring Tools/lib/ctat.jar"/>
+		</list>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.property.editor.string.StringPropertyDialog">
+		<item value="468" key="x"/>
+		<item value="504" key="width"/>
+		<item value="280" key="y"/>
+		<item value="310" key="height"/>
+	</section>
+</section>

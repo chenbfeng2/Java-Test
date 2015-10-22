@@ -1,0 +1,142 @@
+;; for Eclipse, etc., specify templates to read
+(require* wmeTypes "wmeTypes.clp")
+
+;;;; Fact assertions: slot assignments are below.
+
+(bind ?var1 (assert(MAIN::hint)))
+(bind ?var2 (assert(MAIN::textField (name GivenNum2SecondDigit))))
+(bind ?var3 (assert(MAIN::textField (name GivenNum1FirstDigit))))
+(bind ?var4 (assert(MAIN::textField (name FirstDigitUpper))))
+(bind ?var5 (assert(MAIN::textField (name Borrow))))
+(bind ?var6 (assert(MAIN::textField (name GivenNum2firstDigit))))
+(bind ?var7 (assert(MAIN::textField (name FirstDigitLower))))
+(bind ?var8 (assert(MAIN::button (name hint))))
+(bind ?var9 (assert(MAIN::button (name done))))
+(bind ?var10 (assert(MAIN::textField (name SecondDigitLower))))
+(bind ?var11 (assert(MAIN::textField (name FinalAnswerTensStripe))))
+(bind ?var12 (assert(MAIN::label (name JCommLabel7))))
+(bind ?var13 (assert(MAIN::label (name JCommLabel6))))
+(bind ?var14 (assert(MAIN::label (name JCommLabel5))))
+(bind ?var15 (assert(MAIN::label (name JCommLabel4))))
+(bind ?var16 (assert(MAIN::textField (name NumberAfterBorrow))))
+(bind ?var17 (assert(MAIN::label (name JCommLabel3))))
+(bind ?var18 (assert(MAIN::textField (name GivenNum1SecondDigit))))
+(bind ?var19 (assert(MAIN::label (name JCommLabel2))))
+(bind ?var20 (assert(MAIN::label (name JCommLabel))))
+(bind ?var21 (assert(MAIN::textField (name FinalAnswerOnesStripe))))
+(bind ?var22 (assert(MAIN::problem (name 37-15))))
+
+;;;; Slot assignments
+
+; MAIN::hint
+(modify ?var1
+    (now FALSE)
+)
+; MAIN::textField
+(modify ?var2
+    (name GivenNum2SecondDigit)
+    (value nil)
+)
+; MAIN::textField
+(modify ?var3
+    (name GivenNum1FirstDigit)
+    (value 3)
+)
+; MAIN::textField
+(modify ?var4
+    (name FirstDigitUpper)
+    (value nil)
+)
+; MAIN::textField
+(modify ?var5
+    (name Borrow)
+    (value nil)
+)
+; MAIN::textField
+(modify ?var6
+    (name GivenNum2firstDigit)
+    (value 1)
+)
+; MAIN::textField
+(modify ?var7
+    (name FirstDigitLower)
+    (value nil)
+)
+; MAIN::button
+(modify ?var8
+    (name hint)
+)
+; MAIN::button
+(modify ?var9
+    (name done)
+)
+; MAIN::textField
+(modify ?var10
+    (name SecondDigitLower)
+    (value nil)
+)
+; MAIN::textField
+(modify ?var11
+    (name FinalAnswerTensStripe)
+    (value nil)
+)
+; MAIN::label
+(modify ?var12
+    (name JCommLabel7)
+    (value "Final Answer")
+)
+; MAIN::label
+(modify ?var13
+    (name JCommLabel6)
+    (value "Converted Numbers")
+)
+; MAIN::label
+(modify ?var14
+    (name JCommLabel5)
+    (value Borrows)
+)
+; MAIN::label
+(modify ?var15
+    (name JCommLabel4)
+    (value "Given Numbers")
+)
+; MAIN::textField
+(modify ?var16
+    (name NumberAfterBorrow)
+    (value nil)
+)
+; MAIN::label
+(modify ?var17
+    (name JCommLabel3)
+    (value "=")
+)
+; MAIN::textField
+(modify ?var18
+    (name GivenNum1SecondDigit)
+    (value 7)
+)
+; MAIN::label
+(modify ?var19
+    (name JCommLabel2)
+    (value "=")
+)
+; MAIN::label
+(modify ?var20
+    (name JCommLabel)
+    (value "-")
+)
+; MAIN::textField
+(modify ?var21
+    (name FinalAnswerOnesStripe)
+    (value nil)
+)
+; MAIN::problem
+(modify ?var22
+    (name 37-15)
+    (interface-elements ?var5 ?var21 ?var11 ?var7 ?var4 ?var3 ?var18 ?var2 ?var6 ?var20 ?var19 ?var17 ?var15 ?var14 ?var13 ?var12 ?var16 ?var10 ?var9 ?var8)
+    (subgoals)
+    (done nil)
+    (description nil)
+)
+
+

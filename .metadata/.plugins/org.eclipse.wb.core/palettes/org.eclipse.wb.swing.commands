@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="ctat_1441080508587"
+		name="ctat"
+		description="Container with import elements from /Applications/Cognitive Tutor Authoring Tools/lib/ctat.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="pact.CommWidgets.JCommTextField_1441080508587"
+		name="JCommTextField"
+		description="Custom component: pact.CommWidgets.JCommTextField"
+		visible="true"
+		class="pact.CommWidgets.JCommTextField"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommRadioButton_1441080508587"
+		name="JCommRadioButton"
+		description="Custom component: pact.CommWidgets.JCommRadioButton"
+		visible="true"
+		class="pact.CommWidgets.JCommRadioButton"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommComposer_1441080508587"
+		name="JCommComposer"
+		description="Custom component: pact.CommWidgets.JCommComposer"
+		visible="true"
+		class="pact.CommWidgets.JCommComposer"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommPicture_1441080508587"
+		name="JCommPicture"
+		description="Custom component: pact.CommWidgets.JCommPicture"
+		visible="true"
+		class="pact.CommWidgets.JCommPicture"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="edu.cmu.pact.BehaviorRecorder.Controller.CTAT_Options_1441080508587"
+		name="CTAT_Options"
+		description="Custom component: edu.cmu.pact.BehaviorRecorder.Controller.CTAT_Options"
+		visible="true"
+		class="edu.cmu.pact.BehaviorRecorder.Controller.CTAT_Options"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommTable_1441080508587"
+		name="JCommTable"
+		description="Custom component: pact.CommWidgets.JCommTable"
+		visible="true"
+		class="pact.CommWidgets.JCommTable"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommMultipleChoice_1441080508587"
+		name="JCommMultipleChoice"
+		description="Custom component: pact.CommWidgets.JCommMultipleChoice"
+		visible="true"
+		class="pact.CommWidgets.JCommMultipleChoice"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommAudioButton_1441080508587"
+		name="JCommAudioButton"
+		description="Custom component: pact.CommWidgets.JCommAudioButton"
+		visible="true"
+		class="pact.CommWidgets.JCommAudioButton"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommQuestionComboBox_1441080508587"
+		name="JCommQuestionComboBox"
+		description="Custom component: pact.CommWidgets.JCommQuestionComboBox"
+		visible="true"
+		class="pact.CommWidgets.JCommQuestionComboBox"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommDrawingPad_1441080508587"
+		name="JCommDrawingPad"
+		description="Custom component: pact.CommWidgets.JCommDrawingPad"
+		visible="true"
+		class="pact.CommWidgets.JCommDrawingPad"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommChooser_1441080508587"
+		name="JCommChooser"
+		description="Custom component: pact.CommWidgets.JCommChooser"
+		visible="true"
+		class="pact.CommWidgets.JCommChooser"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.Circle_1441080508587"
+		name="Circle"
+		description="Custom component: pact.CommWidgets.Circle"
+		visible="true"
+		class="pact.CommWidgets.Circle"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommLabel_1441080508587"
+		name="JCommLabel"
+		description="Custom component: pact.CommWidgets.JCommLabel"
+		visible="true"
+		class="pact.CommWidgets.JCommLabel"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommTextArea_1441080508587"
+		name="JCommTextArea"
+		description="Custom component: pact.CommWidgets.JCommTextArea"
+		visible="true"
+		class="pact.CommWidgets.JCommTextArea"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommMultipleChoiceCheckBox_1441080508587"
+		name="JCommMultipleChoiceCheckBox"
+		description="Custom component: pact.CommWidgets.JCommMultipleChoiceCheckBox"
+		visible="true"
+		class="pact.CommWidgets.JCommMultipleChoiceCheckBox"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommButton_1441080508587"
+		name="JCommButton"
+		description="Custom component: pact.CommWidgets.JCommButton"
+		visible="true"
+		class="pact.CommWidgets.JCommButton"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommQuestionTextField_1441080508587"
+		name="JCommQuestionTextField"
+		description="Custom component: pact.CommWidgets.JCommQuestionTextField"
+		visible="true"
+		class="pact.CommWidgets.JCommQuestionTextField"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.HorizontalLine_1441080508587"
+		name="HorizontalLine"
+		description="Custom component: pact.CommWidgets.HorizontalLine"
+		visible="true"
+		class="pact.CommWidgets.HorizontalLine"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommList_1441080508587"
+		name="JCommList"
+		description="Custom component: pact.CommWidgets.JCommList"
+		visible="true"
+		class="pact.CommWidgets.JCommList"
+		category="ctat_1441080508587"/>
+	<addComponent
+		id="pact.CommWidgets.JCommComboBox_1441080508587"
+		name="JCommComboBox"
+		description="Custom component: pact.CommWidgets.JCommComboBox"
+		visible="true"
+		class="pact.CommWidgets.JCommComboBox"
+		category="ctat_1441080508587"/>
+</commands>

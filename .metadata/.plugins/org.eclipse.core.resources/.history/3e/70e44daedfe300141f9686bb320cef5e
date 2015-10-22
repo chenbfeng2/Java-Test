@@ -1,0 +1,28 @@
+package edu.vanderbilt.a4_android.ui;
+
+import android.util.Log;
+import edu.vanderbilt.a4_android.ui.EntityVisitor;
+
+public class PrintVisitor implements EntityVisitor {
+  /** Print the provided entity to standard output. */
+	private final String TAG = getClass().getSimpleName();
+  @Override
+  public void visit (SimpleEntity ent) {
+	  System.out.println(ent.toString());
+	  Log.d(TAG, ent.toString());
+  }
+
+  @Override
+  public void visit(ImmobileEntity entity) {
+    // TODO: Fill in here, if necessary
+	  System.out.println(entity.toString());
+	  Log.d(TAG, entity.toString());
+  }
+
+  @Override
+  public void visit(AggregateEntity entity) {
+    // TODO: Fill in here, if necessary
+	  System.out.println(entity.toString());
+	  Log.d(TAG, entity.toString());
+  }
+}
