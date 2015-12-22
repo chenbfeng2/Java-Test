@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="num-ans" key="selection"/>
+		<item value="studentValues" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="studentValues"/>
+			<item value="convertTens"/>
+			<item value="add-3vals"/>
+			<item value="column-name"/>
+			<item value="targetTens"/>
+			<item value="convertedSubtractor"/>
+			<item value="finalValues"/>
 			<item value="num-ans"/>
-			<item value="subgoals"/>
-			<item value="var0"/>
-			<item value="done"/>
-			<item value="inter"/>
-			<item value="ButtonPressed"/>
-			<item value="predict-observable-actionpredict-observable-action"/>
-			<item value="sum"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Down"/>
@@ -25,7 +25,7 @@
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="1026" key="DIALOG_X_ORIGIN"/>
-		<item value="80" key="DIALOG_Y_ORIGIN"/>
+		<item value="793" key="DIALOG_X_ORIGIN"/>
+		<item value="417" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

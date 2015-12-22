@@ -23,8 +23,12 @@ public class test {
 		ArrayList<Integer> result=mergeNList(test);
 		for(int i:result)
 		{
-			System.out.println(i+",");
+			//System.out.println(i+",");
 		}
+		int test1=123312;
+		int test2=421412;
+		test1=(int)(Math.pow(2, 3));
+		System.out.println(test1);
 	}
 	public static ArrayList<Integer> mergeNList(List<int[]> lists)
 	{
